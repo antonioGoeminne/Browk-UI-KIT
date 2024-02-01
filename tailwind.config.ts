@@ -4,10 +4,19 @@ const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/ui/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./stories/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          DEFAULT: "#6E41E2",
+          ["darker-100"]: "#5835B0",
+          ["darker-200"]: "#472C8A",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
