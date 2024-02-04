@@ -27,4 +27,9 @@ describe("Test Button component", () => {
     fireEvent.click(getByText(defaultProps.label));
     expect(onClick).toHaveBeenCalled();
   });
+
+  it("doesn´t have label if has iconButton props", () => {
+    const { getByRole } = render(<Button iconButton label="primary" />);
+    expect(getByRole("button")).not.toHaveTextContent(/primary/i);
+  });
 });

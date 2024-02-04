@@ -1,4 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import plus from "../../../public/plus.svg";
+import plus_primary from "../../../public/plus_primary.svg";
 
 import { Button } from "./Button";
 
@@ -30,6 +32,30 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     label,
+    variant: "secondary",
+  },
+};
+
+export const WithStartIcon: Story = {
+  args: {
+    label,
+    startIcon: plus,
+  },
+};
+
+export const IconButton: Story = {
+  args: {
+    label,
+    iconButton: true,
+    icon: plus,
+  },
+};
+
+export const IconButtonSecondary: Story = {
+  args: {
+    label,
+    iconButton: true,
+    icon: plus_primary,
     variant: "secondary",
   },
 };
