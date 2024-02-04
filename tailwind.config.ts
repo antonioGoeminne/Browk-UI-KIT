@@ -15,6 +15,10 @@ const config: Config = {
           DEFAULT: "#6E41E2",
           ["darker-100"]: "#5835B0",
           ["darker-200"]: "#472C8A",
+          disabled: "#E3DAF9",
+        },
+        gray: {
+          DEFAULT: "#111111",
         },
       },
       backgroundImage: {
