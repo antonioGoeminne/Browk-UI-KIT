@@ -19,6 +19,14 @@ const config: Config = {
         },
         gray: {
           DEFAULT: "#111111",
+          100: "#D4D4D4",
+          200: "#F1F1F1",
+          300: "#FAFAFA",
+        },
+        red: {
+          DEFAULT: "#DB524E",
+          100: "#F9E3E3",
+          200: "#C7302B",
         },
       },
       backgroundImage: {
