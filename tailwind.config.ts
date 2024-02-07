@@ -28,6 +28,10 @@ const config: Config = {
           100: "#F9E3E3",
           200: "#C7302B",
         },
+        green: {
+          DEFAULT: "#27AE60",
+          100: "#CBECD9",
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
