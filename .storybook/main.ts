@@ -52,6 +52,7 @@ const config: StorybookConfig = {
     config.resolve.alias = {
       ...config.resolve.alias,
       "@utils": path.resolve(__dirname, "../src/utils"),
+      "@ui": path.resolve(__dirname, "../src/ui"),
     };
     return config;
   },
