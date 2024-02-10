@@ -10,7 +10,7 @@ const badgeVariants = cva("rounded-full text-center font-bold text-[13px] flex i
       white: "bg-white text-primary shadow-md",
     },
     size: {
-      default: "h-6 py-3 w-[70px]",
+      default: "h-6 px-2 py-3 max-w-[85px]",
     },
   },
   defaultVariants: {
