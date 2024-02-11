@@ -15,6 +15,7 @@ export const Radio = (props: radioProps) => {
       className="RadioGroupRoot"
       defaultValue={defaultValue}
       aria-label="View density"
+      name="radiogroup"
     >
       <div className="flex gap-3">
         <RadioGroup.Item

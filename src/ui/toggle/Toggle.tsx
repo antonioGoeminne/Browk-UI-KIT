@@ -5,7 +5,7 @@ interface toggleProps {
   disabled?: boolean;
   id: string;
   label?: string;
-  onChange?: ()=> {}
+  onChange?: () => {};
 }
 
 export const Toggle = (props: toggleProps) => {
@@ -15,6 +15,7 @@ export const Toggle = (props: toggleProps) => {
     <div className="flex items-center">
       <Switch.Root
         {...props}
+        name="toggle"
         className="w-[48px] h-[24px] border-2 border-primary-disabled bg-white rounded-full relative focus:border-gray/50 data-[state=checked]:disabled:bg-primary/50 data-[state=checked]:disabled:border-primary/50  data-[state=checked]:bg-primary data-[state=checked]:border-primary data-[state=checked]:focus:border-primary-darker-200 data-[state=checked]:hover:bg-primary-darker-200 data-[state=checked]:hover:border-primary-darker-200 outline-none cursor-default transition-all peer"
         id={id}
       >
@@ -43,9 +44,9 @@ export const Toggle = (props: toggleProps) => {
           <Switch.Thumb className="block w-[12px] h-[12px] border-2 border-primary-disabled rounded-full transition-transform duration-100 translate-x-[8px] translate-y-[2px] will-change-transform data-[state=checked]:hidden peer-hover:bg-primary-darker-100" />
         </div>
       </Switch.Root>
-        <label className="  leading-none pl-2" htmlFor={id}>
-          {label}
-        </label>
+      <label className="  leading-none pl-2" htmlFor={id}>
+        {label}
+      </label>
     </div>
   );
 };
