@@ -16,6 +16,7 @@ const buttonVariants = cva(
           "bg-white border-2 border-primary text-primary hover:bg-primary/20  hover:bg-primary/10 active:bg-primary/20 focus:border-2 focus:border-gray/50",
         secondaryWhite:
           "bg-primary border-2 text-white border-white hover:bg-primary/20  active:bg-primary/20 focus:border-2 focus:border-gray/50",
+        ghost: "bg-white text-primary hover:underline",
       },
       size: {
         default: "h-11 px-[17px] ",

@@ -19,3 +19,18 @@ export const Primary: Story = {
     label: "Your text",
   },
 };
+
+export const Secondary: Story = {
+  args: {
+    label: "Your text",
+    variant:'secondary'
+  },
+};
+
+export const White: Story = {
+  args: {
+    label: "Your text",
+    variant:'white'
+  },
+};
+
