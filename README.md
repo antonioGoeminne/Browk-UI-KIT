@@ -16,7 +16,7 @@ In this project, I've utilized these tools ⛏️:
 - 🎨 **[Radix UI](https://www.radix-ui.com/)** - Headless UI components for endless customization.
 - 🟪 **[CVA](http://cva.style/)** - Create a consistent, reusable, and atomic design system.
 
-<img width="360px" height="410px" src="./.github/assets/perfo.png">
+<img width="300px" height="300px" src="./.github/assets/perfo.png">
 
 ## How to navigate this project
 
