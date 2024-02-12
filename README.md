@@ -1,3 +1,5 @@
+<img align="right" width="360px" height="410px" src="./.github/assets/perfo.png">
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
