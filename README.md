@@ -1,7 +1,3 @@
-<img align="right" width="360px" height="410px" src="./.github/assets/perfo.png">
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 Welcome to this code! Here, I've brought a design system 🎨 from Figma to life. 🧟
 
 ## Features
@@ -19,6 +15,8 @@ In this project, I've utilized these tools ⛏️:
 - 🍝 **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)** - No more spaghetti imports.
 - 🎨 **[Radix UI](https://www.radix-ui.com/)** - Headless UI components for endless customization.
 - 🟪 **[CVA](http://cva.style/)** - Create a consistent, reusable, and atomic design system.
+
+<img  src="./.github/assets/perfo.png">
 
 ## How to navigate this project
 
