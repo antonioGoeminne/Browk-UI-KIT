@@ -17,6 +17,8 @@ In this project, I've utilized these tools ⛏️:
 - 🟪 **[CVA](http://cva.style/)** - Create a consistent, reusable, and atomic design system.
 
 <img  src="./.github/assets/perfo.png">
+<img  src="./.github/assets/test1.png">
+<img  src="./.github/assets/storybook1.png">
 
 ## How to navigate this project
 
